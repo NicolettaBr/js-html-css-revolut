@@ -16,6 +16,7 @@ img{
     margin: auto;
     padding-top: 5px;
     padding-bottom: 5px;
+    position: relative;
 }
 
 nav{
@@ -55,7 +56,7 @@ nav{
 
 button{
     vertical-align: -80%;
-    background-color: fuchsia;
+    background-color: #ff00b3;
     color: white;
     padding: 15px;
     border-radius: 35px;
@@ -64,4 +65,30 @@ button{
 
 nav .menu li a:hover {
     color: black;
+}
+
+/*DROPDOWN*/
+
+.dropdown{
+    position: absolute;
+    top: 100%;
+    
+    background-color: cornflowerblue;
+    /*poi devi renderlo display none*/
+    display: none;
+}
+
+.menu-dropdown{
+    list-style-type: none;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-dropdown li{
+    display: block;
+    text-align: left;
+}
+
+.dropdown.active{
+    display: block;
 }
