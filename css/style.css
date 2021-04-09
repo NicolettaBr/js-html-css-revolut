@@ -11,7 +11,7 @@ img{
 }
 
 .container{
-    background-color: coral;
+    
     max-width: 1200px;
     margin: auto;
     padding-top: 5px;
@@ -72,21 +72,28 @@ nav .menu li a:hover {
 .dropdown{
     position: absolute;
     top: 100%;
-    
-    background-color: cornflowerblue;
+    max-width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /*poi devi renderlo display none*/
     display: none;
+    padding-right: 20px;
+    padding-bottom: 5px;
 }
 
 .menu-dropdown{
     list-style-type: none;
-    padding-right: 5px;
-    padding-bottom: 5px;
+    
 }
 
 .menu-dropdown li{
     display: block;
     text-align: left;
+    
+}
+
+.menu-dropdown li a{
+    font-size: 15px;
 }
 
 .dropdown.active{
