@@ -8,8 +8,9 @@ $(document).ready(function(){
     $('.menu li').mouseenter(function(){
         //console.log(this);
         var thisElement = $(this);
-        thisElement.children('dropdown');
-        console.log(thisElement);
+        var figlio = thisElement.children('dropdown');
+        console.log(figlio);
+        
     });
 
 
